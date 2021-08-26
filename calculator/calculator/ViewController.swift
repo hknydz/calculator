@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     }
     var x = 0.0;
     var y = 0.0;
+    var z = 0.0;
     var sum = 0.0;
     var op = "+"
     
@@ -61,8 +62,17 @@ class ViewController: UIViewController {
     
     
     @IBAction func Num0(_ sender: UIButton) {TextField.text = TextField.text! + "0"
+    
     }
     
+    @IBAction func Prozent(_ sender: UIButton) {
+
+    x = Double(TextField.text!)!
+        z = x / 100
+        clearText()
+        TextField.text! = String(z)
+        
+    }
     
     @IBAction func Multiply(_ sender: UIButton) {
         op = "*"
@@ -70,6 +80,9 @@ class ViewController: UIViewController {
         clearText()
     }
     
+    @IBAction func Komma(_ sender: UIButton) {
+        TextField.text = TextField.text! + "."
+        }
     
     
     @IBAction func Divide(_ sender: UIButton) {

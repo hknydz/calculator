@@ -27,6 +27,17 @@
                                     <action selector="Num3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CG2-av-pYL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5H-kJ-6jY">
+                                <rect key="frame" x="179" y="497" width="55" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <state key="normal" title=",">
+                                    <color key="titleColor" systemColor="systemGray6Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="Komma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oAA-X3-8zd"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MuK-Tb-XL0">
                                 <rect key="frame" x="119" y="448" width="55" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -126,8 +137,20 @@
                                     <action selector="Divide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cY5-Pf-aLI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wK7-xl-B1f">
+                                <rect key="frame" x="242" y="448" width="55" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" systemColor="systemGray6Color"/>
+                                </state>
+                                <connections>
+                                    <action selector="Equals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WIg-bj-yMK"/>
+                                    <action selector="buttonClearWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zXP-EQ-5ff"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdY-6r-fk5">
-                                <rect key="frame" x="242" y="350" width="55" height="41"/>
+                                <rect key="frame" x="242" y="399" width="55" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="=">
@@ -196,16 +219,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wK7-xl-B1f">
-                                <rect key="frame" x="242" y="399" width="55" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNb-BC-MqD">
+                                <rect key="frame" x="242" y="350" width="55" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Clear">
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="%">
                                     <color key="titleColor" systemColor="systemGray6Color"/>
                                 </state>
                                 <connections>
-                                    <action selector="Equals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WIg-bj-yMK"/>
-                                    <action selector="buttonClearWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zXP-EQ-5ff"/>
+                                    <action selector="Prozent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Zh-vO-Lol"/>
                                 </connections>
                             </button>
                         </subviews>
